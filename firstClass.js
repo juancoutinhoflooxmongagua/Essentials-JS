@@ -1,9 +1,18 @@
+function f1() {}
 
+const f2 = function () {}
 
-function f1(){
-    
-}
+const soma = function (a, b) {
+  return a + b;
+};
 
-const f2 = function() {}
+const array = [soma, f1, f2];
 
-const array = [function (a + b) {return  a + b}]
+console.log(array[0](2, 3)); // 5
+
+const obj = {};
+obj.falar = function () {
+  return 'olá';
+};
+
+console.log(obj.falar()); // 'olá'
