@@ -36,3 +36,9 @@ console.log('Com callback:', abaixoDaMedia2);
 const menorQueMedia = m => m < mediaGeral;
 const abaixoDaMedia3 = medias.filter(menorQueMedia);
 console.log('Com arrow:', abaixoDaMedia3);
+
+
+// Callback no Navegador
+document.getElementsByTagName('body')[0].onclick = function (e) {
+    console.log('it running')
+  }
