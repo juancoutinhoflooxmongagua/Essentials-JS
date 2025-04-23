@@ -9,3 +9,4 @@ function cumprimentar(nome, indice) {
 }
 
 nomes.forEach(cumprimentar, contexto);
+
